@@ -1,0 +1,189 @@
+programa
+{
+	
+	funcao inicio()
+	{
+
+/*
+		Exercício 1:
+
+		inteiro formaPagamento
+		formaPagamento = 0
+		escreva ("Escolha a forma de pagamento \n")
+		leia (formaPagamento)
+		escolha(formaPagamento){
+			caso 1: escreva("Á Vista. \n")
+				pare
+			caso 2: escreva("Débito. \n")
+				pare
+			caso 3: escreva("Crédito. \n")
+				pare
+			caso contrario: escreva("Opção inválida. \n")
+				pare
+		}
+	
+*/
+	/*
+
+		Exercício 2: Leia uma Vogal maiuscula e imprima a vogal subsequente
+	 
+		caracter vogal, vogalSubsequente
+		
+		escreva("digite uma vogal maiúscula: \n")
+		leia(vogal)
+		escolha(vogal){
+			caso 'A': escreva('E')
+				pare
+			caso 'E': escreva('I')
+				pare
+			caso 'I': escreva('O')
+				pare
+			caso 'O': escreva('U')
+				pare
+			caso 'U': escreva('A', " , novamente \n")
+				pare
+			caso contrario: escreva("Opção inválida. \n")
+				pare
+			}
+
+		*/
+
+		// Exercício 3: Leia uma Vogal maiuscula e imprima a vogal subsequente
+
+/*
+
+		inteiro mes
+		mes = 0
+		escreva ("Digite o mês em número de 1(Janeiro) até 12(Dezembro) \n")
+		leia (mes)
+		escolha(mes){
+			caso 1: escreva("Janeiro \n")
+				pare
+			caso 2: escreva("Fevereiro \n")
+				pare
+			caso 3: escreva("Março \n")
+				pare
+			caso 4: escreva("Abril \n")
+				pare
+			caso 5: escreva("Maio \n")
+				pare
+			caso 6: escreva("Junho \n")
+				pare
+			caso 7: escreva("Julho \n")
+				pare
+			caso 8: escreva("Agosto \n")
+				pare
+			caso 9: escreva("Setembro \n")
+				pare
+			caso 10: escreva("Outubro \n")
+				pare
+			caso 11: escreva("Novembro \n")
+				pare
+			caso 12: escreva("Dezembro \n")
+				pare						
+			caso contrario: escreva("Opção inválida. \n")
+				pare
+		}
+
+/*
+
+		Exercício 4: Leia uma Vogal maiuscula e imprima a vogal subsequente em se/senao
+
+		caracter vogal, vogalSubsequente
+		
+		escreva("digite uma vogal maiúscula: \n")
+		leia(vogal)
+			se (vogal == 'A'){
+				escreva('E')
+			}senao se (vogal == 'E'){
+				escreva('I')
+			}senao se(vogal == 'I'){
+				escreva('O')
+			}senao se(vogal == 'O'){
+				escreva('U')
+			}senao se(vogal == 'U'){
+				escreva('A', " , novamente \n")
+			}
+
+*/
+
+		/* Exercício 6 - Faça um algoritimo que mostre o menu com as seguintes opções: 1- Soma, 2- Multiplicação, 3- Finalizar
+
+		inteiro algoritmoA, algoritmoB, algoritmoC
+		escreva("Digite um número A para operarmos \n")
+		leia (algoritmoA)
+		escreva("Digite um número B para operarmos \n")
+		leia (algoritmoB)
+		escreva ("opções: 1- Soma, 2- Subtração, 3- Multiplicação, 4- Divisão e 5- Finalizar \n")
+		leia (algoritmoC)
+		escolha(algoritmoC){
+			caso 1: escreva(algoritmoA + algoritmoB, "\n")
+				pare
+			caso 2: escreva(algoritmoA - algoritmoB, "\n")
+				pare
+			caso 3: escreva(algoritmoA * algoritmoB, "\n")
+				pare
+			caso 4: escreva(algoritmoA / algoritmoB, "\n")
+				pare
+			caso 5: escreva("Finalizar \n")
+				pare
+			caso contrario: escreva("Escolha uma opção válida \n")
+				pare
+		}
+*/
+
+/*
+		Exercício 7 - 4: Conversão de Unidades  Faça um programa em Portugol que converta uma medida de comprimento em metros para outras unidades: centímetros, decímetros, quilômetros ou polegadas. 
+		O usuário deve escolher a unidade desejada.
+
+
+		real metro 
+		inteiro conversao
+		escreva("Digite um número em metros para converter em outra medida \n")
+		leia(metro)
+		escreva ("opções: 1- Centímetros, 2- Decímetros, 3- Quilômetros e 4- Polegadas \n")
+		leia(conversao)
+		escolha(conversao){
+			caso 1: escreva("os metros convertidos em centímetros são iguais a: ", metro * 100, " centimetros \n")
+				pare
+			caso 2: escreva("os metros convertidos em decímetros são iguais a: ", metro * 10, " decímetros \n")
+				pare
+			caso 3: escreva("os metros convertidos em quilômetros são iguais a: ", metro / 10, " quilômetros \n")
+				pare
+			caso 4: escreva("os metros convertidos em Polegadas são iguais a: ", metro / 2.54, " polegadas \n")
+				pare
+			caso contrario: escreva("Escolha uma opção válida \n")
+				pare
+
+
+		}
+*/
+
+		// 8: Menu de Calculadora: Faça um programa em Portugol que simule uma calculadora com as operações de soma, subtração, multiplicação e divisão. O usuário deve escolher a operação desejada.
+		
+		real valorA, valorB
+		inteiro calcular
+		escreva("Digite um número A para calcular com B \n")
+		leia(valorA)
+		escreva("Digite o número B \n")
+		leia(valorB)
+		escreva("opções: 1- soma, 2- Subtração, 3- multiplicação e 4- Divisão \n")
+		leia(calcular)
+		escolha(calcular){
+			caso 1: escreva(valorA + valorB, " \n")
+				pare
+			caso 2: escreva(valorA - valorB, "\n")
+				pare
+			caso 3: escreva(valorA * valorB, "\n")
+				pare
+			caso 4: escreva(valorA / valorB, "\n")
+				pare
+			caso contrario: escreva("Escolha uma opção válida \n")
+				pare
+
+
+		}	
+	
+	}
+}
+
